@@ -72,5 +72,27 @@ namespace GUI
             f.ShowDialog();
             f.Dispose();
         }
+
+        private void configuraçãoDoBancoDeDadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmConfiguracaoBancoDados f = new frmConfiguracaoBancoDados();
+            f.ShowDialog();
+            f.Dispose();
+        }
+
+        private void calculadoraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("calc");
+        }
+
+        private void explorerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("explorer");
+        }
+
+        private void blocoDeNotasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("notepad");
+        }
     }
 }

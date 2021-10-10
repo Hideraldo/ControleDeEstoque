@@ -85,26 +85,32 @@ namespace GUI
             // 
             // btCancelar
             // 
+            this.btCancelar.TabIndex = 15;
             this.btCancelar.Click += new System.EventHandler(this.btCancelar_Click);
             // 
             // btSalvar
             // 
+            this.btSalvar.TabIndex = 14;
             this.btSalvar.Click += new System.EventHandler(this.btSalvar_Click);
             // 
             // btExcluir
             // 
+            this.btExcluir.TabIndex = 13;
             this.btExcluir.Click += new System.EventHandler(this.btExcluir_Click);
             // 
             // btAlterar
             // 
+            this.btAlterar.TabIndex = 12;
             this.btAlterar.Click += new System.EventHandler(this.btAlterar_Click);
             // 
             // btLocalizar
             // 
+            this.btLocalizar.TabIndex = 11;
             this.btLocalizar.Click += new System.EventHandler(this.btLocalizar_Click);
             // 
             // btInserir
             // 
+            this.btInserir.TabIndex = 10;
             this.btInserir.Click += new System.EventHandler(this.btInserir_Click);
             // 
             // label1
@@ -205,6 +211,7 @@ namespace GUI
             this.txtCodigo.Name = "txtCodigo";
             this.txtCodigo.Size = new System.Drawing.Size(100, 22);
             this.txtCodigo.TabIndex = 10;
+            this.txtCodigo.TabStop = false;
             // 
             // txtNome
             // 
@@ -212,7 +219,7 @@ namespace GUI
             this.txtNome.Location = new System.Drawing.Point(18, 86);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(346, 22);
-            this.txtNome.TabIndex = 11;
+            this.txtNome.TabIndex = 0;
             // 
             // txtDescricao
             // 
@@ -221,7 +228,7 @@ namespace GUI
             this.txtDescricao.Multiline = true;
             this.txtDescricao.Name = "txtDescricao";
             this.txtDescricao.Size = new System.Drawing.Size(346, 106);
-            this.txtDescricao.TabIndex = 12;
+            this.txtDescricao.TabIndex = 1;
             // 
             // txtValorPago
             // 
@@ -229,7 +236,8 @@ namespace GUI
             this.txtValorPago.Location = new System.Drawing.Point(18, 276);
             this.txtValorPago.Name = "txtValorPago";
             this.txtValorPago.Size = new System.Drawing.Size(162, 22);
-            this.txtValorPago.TabIndex = 13;
+            this.txtValorPago.TabIndex = 2;
+            this.txtValorPago.Text = "0.00";
             this.txtValorPago.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValorPago_KeyPress);
             this.txtValorPago.Leave += new System.EventHandler(this.txtValorPago_Leave);
             // 
@@ -239,7 +247,8 @@ namespace GUI
             this.txtValorVenda.Location = new System.Drawing.Point(202, 276);
             this.txtValorVenda.Name = "txtValorVenda";
             this.txtValorVenda.Size = new System.Drawing.Size(162, 22);
-            this.txtValorVenda.TabIndex = 14;
+            this.txtValorVenda.TabIndex = 3;
+            this.txtValorVenda.Text = "0.00";
             this.txtValorVenda.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValorVenda_KeyPress);
             this.txtValorVenda.Leave += new System.EventHandler(this.txtValorVenda_Leave);
             // 
@@ -249,7 +258,8 @@ namespace GUI
             this.txtQuantidade.Location = new System.Drawing.Point(18, 335);
             this.txtQuantidade.Name = "txtQuantidade";
             this.txtQuantidade.Size = new System.Drawing.Size(162, 22);
-            this.txtQuantidade.TabIndex = 15;
+            this.txtQuantidade.TabIndex = 4;
+            this.txtQuantidade.Text = "0.00";
             this.txtQuantidade.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtQuantidade_KeyPress);
             this.txtQuantidade.Leave += new System.EventHandler(this.txtQuantidade_Leave);
             // 
@@ -257,29 +267,32 @@ namespace GUI
             // 
             this.cbUndMedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbUndMedia.FormattingEnabled = true;
+            this.cbUndMedia.ItemHeight = 16;
             this.cbUndMedia.Location = new System.Drawing.Point(202, 336);
             this.cbUndMedia.Name = "cbUndMedia";
             this.cbUndMedia.Size = new System.Drawing.Size(162, 24);
-            this.cbUndMedia.TabIndex = 16;
+            this.cbUndMedia.TabIndex = 5;
             // 
             // cbCategoria
             // 
             this.cbCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbCategoria.FormattingEnabled = true;
+            this.cbCategoria.ItemHeight = 16;
             this.cbCategoria.Location = new System.Drawing.Point(18, 385);
             this.cbCategoria.Name = "cbCategoria";
             this.cbCategoria.Size = new System.Drawing.Size(162, 24);
-            this.cbCategoria.TabIndex = 17;
+            this.cbCategoria.TabIndex = 6;
             this.cbCategoria.SelectedIndexChanged += new System.EventHandler(this.cbCategoria_SelectedIndexChanged);
             // 
             // cbSubCategoria
             // 
             this.cbSubCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbSubCategoria.FormattingEnabled = true;
+            this.cbSubCategoria.ItemHeight = 16;
             this.cbSubCategoria.Location = new System.Drawing.Point(202, 385);
             this.cbSubCategoria.Name = "cbSubCategoria";
             this.cbSubCategoria.Size = new System.Drawing.Size(162, 24);
-            this.cbSubCategoria.TabIndex = 18;
+            this.cbSubCategoria.TabIndex = 7;
             // 
             // label10
             // 
@@ -316,7 +329,7 @@ namespace GUI
             this.btCarregarFoto.Location = new System.Drawing.Point(396, 355);
             this.btCarregarFoto.Name = "btCarregarFoto";
             this.btCarregarFoto.Size = new System.Drawing.Size(161, 54);
-            this.btCarregarFoto.TabIndex = 20;
+            this.btCarregarFoto.TabIndex = 8;
             this.btCarregarFoto.Text = "Carregar Foto";
             this.btCarregarFoto.UseVisualStyleBackColor = true;
             this.btCarregarFoto.Click += new System.EventHandler(this.btCarregarFoto_Click);
@@ -327,7 +340,7 @@ namespace GUI
             this.btRemoverFoto.Location = new System.Drawing.Point(581, 355);
             this.btRemoverFoto.Name = "btRemoverFoto";
             this.btRemoverFoto.Size = new System.Drawing.Size(161, 54);
-            this.btRemoverFoto.TabIndex = 21;
+            this.btRemoverFoto.TabIndex = 9;
             this.btRemoverFoto.Text = "Remover Foto";
             this.btRemoverFoto.UseVisualStyleBackColor = true;
             this.btRemoverFoto.Click += new System.EventHandler(this.btRemoverFoto_Click);
