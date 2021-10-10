@@ -94,5 +94,40 @@ namespace GUI
         {
             System.Diagnostics.Process.Start("notepad");
         }
+
+        private void backupDoBancoDeDadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmBackupBancoDeDados f = new frmBackupBancoDeDados();
+            f.ShowDialog();
+            f.Dispose();
+        }
+
+        private void tipoDePagamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroTipoPagamento f = new frmCadastroTipoPagamento();
+            f.ShowDialog();
+            f.Dispose();
+        }
+
+        private void tipoDePagamentoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmConsultaTipoPagamento f = new frmConsultaTipoPagamento();
+            f.ShowDialog();
+            f.Dispose();
+        }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroCliente f = new frmCadastroCliente();
+            f.ShowDialog();
+            f.Dispose();
+        }
+
+        private void clienteToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmConsultaCliente f = new frmConsultaCliente();
+            f.ShowDialog();
+            f.Dispose();
+        }
     }
 }

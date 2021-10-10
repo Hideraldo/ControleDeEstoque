@@ -35,12 +35,14 @@ namespace GUI
             this.txtSubCatCodigo = new System.Windows.Forms.TextBox();
             this.txtSubCatNome = new System.Windows.Forms.TextBox();
             this.cbCatNome = new System.Windows.Forms.ComboBox();
+            this.btAdd = new System.Windows.Forms.Button();
             this.pnDados.SuspendLayout();
             this.pnBotoes.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnDados
             // 
+            this.pnDados.Controls.Add(this.btAdd);
             this.pnDados.Controls.Add(this.cbCatNome);
             this.pnDados.Controls.Add(this.txtSubCatNome);
             this.pnDados.Controls.Add(this.txtSubCatCodigo);
@@ -128,6 +130,17 @@ namespace GUI
             this.cbCatNome.Size = new System.Drawing.Size(254, 28);
             this.cbCatNome.TabIndex = 5;
             // 
+            // btAdd
+            // 
+            this.btAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btAdd.Location = new System.Drawing.Point(345, 270);
+            this.btAdd.Name = "btAdd";
+            this.btAdd.Size = new System.Drawing.Size(49, 30);
+            this.btAdd.TabIndex = 6;
+            this.btAdd.Text = "+";
+            this.btAdd.UseVisualStyleBackColor = true;
+            this.btAdd.Click += new System.EventHandler(this.btAdd_Click);
+            // 
             // frmCadastroSubCategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -150,5 +163,6 @@ namespace GUI
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btAdd;
     }
 }

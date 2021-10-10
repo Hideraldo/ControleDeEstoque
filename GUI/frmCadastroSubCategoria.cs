@@ -129,5 +129,13 @@ namespace GUI
             }
             f.Dispose();
         }
+
+        private void btAdd_Click(object sender, EventArgs e)
+        {
+            frmCadastroCategoria f = new frmCadastroCategoria();
+            f.ShowDialog();
+            f.Dispose();
+            frmCadastroSubCategoria_Load(sender, e);
+        }
     }
 }

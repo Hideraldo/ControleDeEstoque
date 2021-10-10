@@ -76,6 +76,7 @@ namespace GUI
             {
                 MessageBox.Show("Erro ao se conectar no banco de dados \n" +
                                 "Verifique os dados informados");
+                MessageBox.Show(errob.Message);
             }
             catch (Exception erros)
             {
