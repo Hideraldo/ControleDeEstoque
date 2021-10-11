@@ -143,5 +143,26 @@ namespace GUI
             f.ShowDialog();
             f.Dispose();
         }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSobre f = new frmSobre();
+            f.ShowDialog();
+            f.Dispose();
+        }
+
+        private void compraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmMovimentacaoCompra f = new frmMovimentacaoCompra();
+            f.ShowDialog();
+            f.Dispose();
+        }
+
+        private void compraToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmConsultaCompra f = new frmConsultaCompra();
+            f.ShowDialog();
+            f.Dispose();
+        }
     }
 }

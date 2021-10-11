@@ -43,7 +43,10 @@
   <ItemGroup>
     <Compile Include="BLLCategoria.cs" />
     <Compile Include="BLLCliente.cs" />
+    <Compile Include="BLLCompra.cs" />
     <Compile Include="BLLFornecedor.cs" />
+    <Compile Include="BLLItensCompra.cs" />
+    <Compile Include="BLLParcelasCompra.cs" />
     <Compile Include="BLLProduto.cs" />
     <Compile Include="BLLSubCategoria.cs" />
     <Compile Include="BLLTipoPagamento.cs" />
