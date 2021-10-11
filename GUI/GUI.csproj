@@ -79,6 +79,12 @@
     <Compile Include="frmCadastroCliente.designer.cs">
       <DependentUpon>frmCadastroCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCadastroFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroFornecedor.designer.cs">
+      <DependentUpon>frmCadastroFornecedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCadastroProduto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,12 @@
     </Compile>
     <Compile Include="frmConsultaCliente.designer.cs">
       <DependentUpon>frmConsultaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaFornecedor.designer.cs">
+      <DependentUpon>frmConsultaFornecedor.cs</DependentUpon>
     </Compile>
     <Compile Include="frmConsultaProduto.cs">
       <SubType>Form</SubType>
@@ -168,6 +180,9 @@
     <EmbeddedResource Include="frmCadastroCliente.resx">
       <DependentUpon>frmCadastroCliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroFornecedor.resx">
+      <DependentUpon>frmCadastroFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCadastroProduto.resx">
       <DependentUpon>frmCadastroProduto.cs</DependentUpon>
     </EmbeddedResource>
@@ -188,6 +203,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmConsultaCliente.resx">
       <DependentUpon>frmConsultaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaFornecedor.resx">
+      <DependentUpon>frmConsultaFornecedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmConsultaProduto.resx">
       <DependentUpon>frmConsultaProduto.cs</DependentUpon>
